@@ -14,6 +14,8 @@ class ContactPage extends StatefulWidget {
 }
 
 Contact? _saveContact;
+
+//Contact c = Contact(img: 'assets/imgs/img.png');
 // ignore: unused_element
 bool _userEditted = false;
 
@@ -67,17 +69,21 @@ class _ContactPage extends State<ContactPage> {
                 height: 20,
               ),
               GestureDetector(
+                key: UniqueKey(),
                 child: Container(
                   height: 80,
                   width: 80,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     image: DecorationImage(
-                        image: _saveContact?.img != null
-                            ? FileImage(File(_saveContact?.img as String))
-                            : AssetImage(_saveContact?.img as String)
-                                as ImageProvider,
-                        fit: BoxFit.cover),
+                      image: _saveContact?.img != null
+                          ? _saveContact?.img is String
+                              ? FileImage(File(_saveContact?.img as String))
+                              : AssetImage(_saveContact?.img as String)
+                                  as ImageProvider
+                          : const AssetImage('assets/imgs/img.png'),
+                      fit: BoxFit.cover,
+                    ),
                   ),
                 ),
                 onTap: () {
@@ -87,7 +93,7 @@ class _ContactPage extends State<ContactPage> {
                             if (value != null)
                               {
                                 setState((() {
-                                  print(_saveContact!.img = value.path);
+                                  _saveContact!.img = value.path;
                                 }))
                               }
                           });

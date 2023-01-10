@@ -21,10 +21,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Na
 		INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:5:9-42
 manifest
-ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-37:12
-INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-37:12
-INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-37:12
-INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-37:12
+ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-45:12
+INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-45:12
+INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-45:12
+INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-45:12
 MERGED from [:image_picker_android] C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\build\image_picker_android\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-21:12
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
 MERGED from [:sqflite] C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\build\sqflite\intermediates\merged_manifest\release\AndroidManifest.xml:2:1-9:12
@@ -48,23 +48,39 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Nathan\.
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nathan\.gradle\caches\transforms-3\b0ed3bc1190a335fc620be73cef0fa31\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Nathan\.gradle\caches\transforms-3\ed9734c73cdec898947618088fbe87b0\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Nathan\.gradle\caches\transforms-3\58e3540d7f5a5bac6af9a8f8fab44363\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-37:12
-INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-37:12
-INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-37:12
+INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-45:12
+INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-45:12
+INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-45:12
 	package
 		ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:2:5-42
 		INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-37:12
+		ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-45:12
 		INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-37:12
+		ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:1-45:12
 		INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:38:5-77
+	android:name
+		ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:38:22-74
+queries
+ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:39:5-44:15
+intent#action:name:android.intent.action.DIAL+data:scheme:tel
+ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:40:9-43:18
+action#android.intent.action.DIAL
+ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:41:13-65
+	android:name
+		ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:41:21-62
+data
+ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:42:13-42
+	android:scheme
+		ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:42:19-39
 uses-sdk
 INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml
@@ -157,14 +173,6 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:25:17-76
 	android:name
 		ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:25:27-74
-action#android.intent.action.DIAL
-ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:26:17-69
-	android:name
-		ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:26:25-66
-data
-ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:27:17-46
-	android:scheme
-		ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:27:23-43
 meta-data#flutterEmbedding
 ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:33:9-35:33
 	android:value

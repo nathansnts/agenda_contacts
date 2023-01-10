@@ -69,8 +69,9 @@ class ContactHelp {
 
   //Deletando um contato
   Future<int?> deleteContact(int id) async {
-    Database? db;
-    return await db?.delete(contactTable, where: '$id = ?', whereArgs: [id]);
+    Database? dbContact = await db;
+    return await dbContact
+        ?.delete(contactTable, where: 'idColumn = ?', whereArgs: [id]);
   }
 
   //Atualizando um contato
@@ -100,8 +101,8 @@ class ContactHelp {
 
   //Encerra conexão com o banco de dados
   Future closeDataBase() async {
-    Database? dbContact = await db;
-    dbContact!.close();
+    Database? db;
+    return await db?.close();
   }
 }
 
@@ -111,8 +112,7 @@ class Contact {
   String? name;
   String? email;
   String? phone;
-  String? img =
-      '/data/data/com.example.agenda_contatos/databases/person_110935.png';
+  String? img;
 
   Contact();
 
@@ -128,6 +128,7 @@ class Contact {
   //Transformando os dados do contato em um mapa
   Map<String, dynamic> toMap() {
     Map<String, dynamic> map = {
+      'idColumn': id,
       'nameColumn': name,
       'emailColumn': email,
       'phoneColumn': phone,

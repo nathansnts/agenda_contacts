@@ -3,7 +3,6 @@ import 'package:agenda_contatos/pages/contact_page.dart';
 import 'package:agenda_contatos/helpers/contact.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:url_launcher/url_launcher_string.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -20,15 +19,7 @@ class _HomePageState extends State<HomePage> {
   void initState() {
     super.initState();
 
-    Contact c = Contact();
-    /*c.name = 'Nathan';
-    c.email = 'nathan@email.com';
-    c.phone = '95959595';
-    */
-
     _getAllContacts();
-
-    //print(help.saveContact(c));
   }
 
   Future<void> _abrirTelefone(String num) async {
@@ -119,7 +110,10 @@ class _HomePageState extends State<HomePage> {
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 image: DecorationImage(
-                    image: FileImage(File(listContacts[index].img!)),
+                    image: listContacts[index].img == null
+                        ? const AssetImage('assets/imgs/img.png')
+                        : FileImage(File(listContacts[index].img!))
+                            as ImageProvider,
                     fit: BoxFit.cover),
               ),
             ),
@@ -178,9 +172,8 @@ class _HomePageState extends State<HomePage> {
                   ),
                   TextButton(
                     onPressed: () {
-                      print(help.deleteContact(listContacts[index].id!));
+                      help.deleteContact(listContacts[index].id!);
                       setState(() {
-                        print(help.getAllContacts());
                         listContacts.removeAt(index);
                         Navigator.pop(context);
                       });

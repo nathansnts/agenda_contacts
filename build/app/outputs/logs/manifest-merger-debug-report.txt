@@ -44,9 +44,9 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Nathan\.
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nathan\.gradle\caches\transforms-3\b0ed3bc1190a335fc620be73cef0fa31\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Nathan\.gradle\caches\transforms-3\ed9734c73cdec898947618088fbe87b0\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Nathan\.gradle\caches\transforms-3\58e3540d7f5a5bac6af9a8f8fab44363\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\debug\AndroidManifest.xml:1:1-8:12
-INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\debug\AndroidManifest.xml:1:1-8:12
-INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\debug\AndroidManifest.xml:1:1-9:12
+INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\debug\AndroidManifest.xml:1:1-9:12
+INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\debug\AndroidManifest.xml:1:1-9:12
 	package
 		ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml:2:5-42
 		INJECTED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\main\AndroidManifest.xml
@@ -139,6 +139,10 @@ uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\debug\AndroidManifest.xml:7:5-66
 	android:name
 		ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\debug\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\debug\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\android\app\src\debug\AndroidManifest.xml:8:22-77
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
 ADDED from [:image_picker_android] C:\Users\Nathan\Documents\Projetos Flutter\agenda_contatos\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
 	android:grantUriPermissions
